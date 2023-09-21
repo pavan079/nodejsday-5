@@ -1,0 +1,12 @@
+POST http://localhost:5004/addOrderDetails
+
+content-type : application/json
+
+{
+    "item" : "poori",
+    "price" : 60,
+    "restaurant" : "varalakshmi"
+}
+
+###
+GET http://localhost:5004/getOrderDetails
